@@ -17,3 +17,9 @@ A C++ console app simulating a basic student portal: login, profile, dashboard, 
 ```bash
 g++ -std=c++17 src/*.cpp -o student_portal
 ```
+
+## Usage
+
+```bash
+./student_portal
+```
