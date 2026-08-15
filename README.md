@@ -23,3 +23,8 @@ g++ -std=c++17 src/*.cpp -o student_portal
 ```bash
 ./student_portal
 ```
+
+## Project Structure
+
+- src/ - source files per module
+- README.md - this file
