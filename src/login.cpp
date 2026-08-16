@@ -25,3 +25,7 @@ bool login(Session& session, const std::string& username, const std::string& pas
     std::cout << "Login successful. Welcome, " << username << "!" << std::endl;
     return true;
 }
+void logout(Session& session) {
+    session.isLoggedIn = false;
+    std::cout << "User logged out." << std::endl;
+}
