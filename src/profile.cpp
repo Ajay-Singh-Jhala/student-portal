@@ -19,6 +19,9 @@ void isvalidage(int age){
     }
 
 }
+void updatename(string name){
+string new_name = "Arjun";
+name = new_name;
 
 int main(){
 string name = "Ajay";
