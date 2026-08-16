@@ -21,3 +21,9 @@ void toggleSetting(std::map<std::string, bool>& settings, const std::string& key
         std::cout << "Setting not found!" << std::endl;
     }
 }
+void resetToDefaults(std::map<std::string, bool>& settings) {
+    settings["darkMode"] = false;
+    settings["emailNotifications"] = true;
+    settings["autoSave"] = true;
+    std::cout << "Settings have been reset to defaults." << std::endl;
+}
