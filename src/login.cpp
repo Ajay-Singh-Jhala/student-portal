@@ -29,3 +29,7 @@ void logout(Session& session) {
     session.isLoggedIn = false;
     std::cout << "User logged out." << std::endl;
 }
+void lookout_policy(const std::string& username){
+std::cout<<"Thanks for signing in, to continue please accept our terms and conditions";
+
+}
