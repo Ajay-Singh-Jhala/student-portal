@@ -1,4 +1,4 @@
-# Student Portal
+# Student Portal - Core Edition
 
 A C++ console app simulating a basic student portal: login, profile, dashboard, settings.
 
