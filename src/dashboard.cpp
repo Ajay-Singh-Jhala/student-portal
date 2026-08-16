@@ -6,3 +6,4 @@ struct CourseGrade {
     std::string courseName;
     int grade;
 };
+// fixed rounding typo
