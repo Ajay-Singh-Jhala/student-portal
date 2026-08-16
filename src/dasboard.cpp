@@ -14,3 +14,12 @@ double calculateAverage(const std::vector<CourseGrade>& grades) {
     }
     return sum / grades.size();
 }
+CourseGrade findHighestGrade(const std::vector<CourseGrade>& grades) {
+    CourseGrade highest = {"", 0};
+    for (const auto& g : grades) {
+        if (g.grade > highest.grade) {
+            highest = g;
+        }
+    }
+    return highest;
+}
