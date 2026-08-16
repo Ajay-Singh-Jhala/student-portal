@@ -28,3 +28,4 @@ g++ -std=c++17 src/*.cpp -o student_portal
 
 - src/ - source files per module
 - README.md - this file
+  notes.txt - temporary scratch notes
