@@ -1,4 +1,4 @@
-# Student Portal
+# Student Portal - v1 Release
 
 A C++ console app simulating a basic student portal: login, profile, dashboard, settings.
 
